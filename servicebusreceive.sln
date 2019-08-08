@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE98A7D1-4ACE-45B9-B8D2-A09BA6C4B7B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "servicebus", "servicebus", "{52676916-FE4A-4226-9D5A-8E35CFEE3692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funcreceive", "src\servicebus\funcreceive\funcreceive.csproj", "{256C789F-BCDA-452C-AB5E-2472F4928E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Debug|x64.Build.0 = Debug|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Debug|x86.Build.0 = Debug|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Release|x64.ActiveCfg = Release|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Release|x64.Build.0 = Release|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Release|x86.ActiveCfg = Release|Any CPU
+		{256C789F-BCDA-452C-AB5E-2472F4928E36}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52676916-FE4A-4226-9D5A-8E35CFEE3692} = {CE98A7D1-4ACE-45B9-B8D2-A09BA6C4B7B3}
+		{256C789F-BCDA-452C-AB5E-2472F4928E36} = {52676916-FE4A-4226-9D5A-8E35CFEE3692}
+	EndGlobalSection
+EndGlobal
