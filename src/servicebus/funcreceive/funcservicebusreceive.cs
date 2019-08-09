@@ -31,6 +31,9 @@ namespace funcreceive
             Console.WriteLine("Press any key to exit after receiving all the messages.");
             Console.WriteLine("======================================================");
 
+            var newRule = new RuleDescription("FilteredRule", new SqlFilter("From LIKE '%manhduc'"));
+            subscriptionClient.AddRuleAsync(newRule);
+
             topicClient = new TopicClient(connectionStringServiceBus, topicName);
 
             RegisterMessageHandlerAndReceiveMessages();
